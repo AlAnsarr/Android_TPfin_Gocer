@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/country_flag"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/country_flag"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/country_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code Pays :   CD"
+        android:layout_below="@+id/country_name"
+        android:layout_toRightOf="@id/country_flag"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12dp"/>
+
+</RelativeLayout>
